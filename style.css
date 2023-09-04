@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilização header */
+
+header{
+    margin: 5px;
+    background-color: rgb(4, 86, 148);
+    position: fixed;
+    width: 100%;
+    height: 110px;
+}
+
+.div-1{
+   
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+
+.div-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+#lista-1{
+   display: flex; 
+   gap: 25px;
+   list-style-type: none;
+   color: white;
+   padding-right: 10px;
+}
+#lista-2{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+.img{
+    background-color: white;
+}
+
+/* Estilização main */
+.secao-1{
+    border: 3px solid black;
+    height: 500px;
+    display: flex;
+}
+
+.div-secao{
+    border: 1px solid black;
+}
+
+.watch-fifa{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("imagem1.webp");
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+}
+
+.watch-fifa button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+}
+.watch-fifa button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.copa{
+    flex-basis: 75%;
+    background-image: url(tacamundi.webp);
+    display: flex;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    align-items: flex-end;
+    padding-left: 15px;
+}
+
+
+.cards{
+    flex-direction: row;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    gap: 25px;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+.cards :hover{
+    transform: scale(1.1);
+
+}
+
+#h1{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.h2{
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  max-width: 540px;
+}
+.ima{
+    border-radius: 20px;
+    height: 300px;
+display: flex;
+cursor: pointer;
+}
+.secao-3{
+background-color: blue;
+margin-top: 30px;
+}
+.cards-2{
+    flex-direction: row;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    gap: 25px;
+    justify-content: space-between;
+    text-align: center;
+}
+.ima-2{
+
+    border-radius: 20px;
+    height: 200px;
+display: flex;
+cursor: pointer;
+
+}
+.cards-2 :hover{
+    transform: scale(1.1);
+}
+.h2-1{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  max-width: 540px;
+  color: white;
+}
+#h1-1{
+    margin-left: 40px;
+    padding-top: 30px;
+    color: white;
+}
+
+
+
